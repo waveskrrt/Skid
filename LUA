@@ -202,6 +202,10 @@ end)
 
 local Tab2 = Window:Tab("PRO AIM",false)
 
+Tab2:Button("can off and on silent aim (q)",function(bool)
+    loadstring(game:HttpGet("https://pastebin.com/raw/D6LQQNYh"))()
+end)
+
 Tab2:Toggle("Pro aim ;)",function(bool)
     DaHoodSettings.ProAim = bool
 end)
